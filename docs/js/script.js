@@ -7,11 +7,10 @@ const generateNumbers = () => {
   for(let i = 0; i < 20; i++) {
     allNumbers.push(Math.floor(Math.random()*100 +1));
   }
-  console.log(allNumbers);
   const evenNumbers = allNumbers.filter(item => item%2 === 0).sort();
   const oddNumbers = allNumbers.filter(item => item %2 !== 0).sort();
-  even.innerHTML = evenNumbers;
-  odd.innerHTML = oddNumbers;
+  even.innerHTML = evenNumbers.join(', ');
+  odd.innerHTML = oddNumbers.join(', ');
 };
 
 button.addEventListener('click', generateNumbers);
