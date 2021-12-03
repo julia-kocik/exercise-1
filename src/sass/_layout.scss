@@ -5,16 +5,16 @@
 }
 
 body {
-    background-color: $color-gray;
+    background-color: $color-white;
 }
 
 .container {
-    background-color: $color-gray-light;
+    background-color: white;
     height: 90vh;
     margin: 30px;
     display: flex;
     flex-direction: column;
-    border: 1px solid $color-gray;
+    box-shadow: 4px 4px 10px 4px $color-gray;
     .button_box {
         flex: 0 0 50%;
         display: flex;
@@ -27,12 +27,12 @@ body {
             border: none;
             border-radius: 5px;
             padding: 20px 30px;
-            background-color: blue;
+            background-color: gray;
             color: $color-white;
             font-size: 20px;
             cursor: pointer;
             &:hover {
-                background-color: $color-blue;
+                background-color: $color-gray;
             }
         }
     }

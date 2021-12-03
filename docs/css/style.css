@@ -347,16 +347,16 @@ template {
 }
 
 body {
-  background-color: #b3b3b3;
+  background-color: #f2f2f2;
 }
 
 .container {
-  background-color: #e6e6e6;
+  background-color: white;
   height: 90vh;
   margin: 30px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #b3b3b3;
+  box-shadow: 4px 4px 10px 4px #b3b3b3;
 }
 
 .container .button_box {
@@ -374,14 +374,14 @@ body {
   border: none;
   border-radius: 5px;
   padding: 20px 30px;
-  background-color: blue;
+  background-color: gray;
   color: #f2f2f2;
   font-size: 20px;
   cursor: pointer;
 }
 
 .container .button_box button:hover {
-  background-color: #0097e6;
+  background-color: #b3b3b3;
 }
 
 .container .table_box {
