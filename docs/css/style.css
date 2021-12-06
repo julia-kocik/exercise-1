@@ -393,6 +393,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 20px 40px;
+  padding: 0 0 40px 0;
 }
 
 .container .table_box table {
