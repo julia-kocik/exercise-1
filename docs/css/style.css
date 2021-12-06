@@ -388,7 +388,7 @@ body {
 }
 
 .container .table_box {
-  flex: 0 0 70%;
+  flex: 0 0 60%;
   display: flex;
   align-items: center;
   justify-content: center;
