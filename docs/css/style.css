@@ -431,22 +431,6 @@ body {
   .container .table_box {
     margin: 10px;
   }
-  .container .table_box table {
-    width: 80%;
-    height: 70%;
-    border-collapse: collapse;
-  }
-  .container .table_box table tr {
-    border: 1px solid #b3b3b3;
-  }
-  .container .table_box table th, .container .table_box table td {
-    border: 1px solid #b3b3b3;
-    padding: 10px 20px;
-  }
-  .container .table_box table .odd, .container .table_box table .even {
-    width: 50%;
-    text-align: center;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
