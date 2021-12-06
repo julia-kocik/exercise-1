@@ -80,22 +80,6 @@ body {
         height: 150vh;
         .table_box {
             margin: 10px;
-            table {
-                width: 80%;
-                height: 70%;
-                border-collapse: collapse;
-                tr {
-                    border: 1px solid $color-gray;
-                }
-                th, td {
-                    border: 1px solid $color-gray;
-                    padding: 10px 20px;
-                }
-                .odd, .even {
-                    width: 50%;
-                    text-align: center;
-                }
-            }
         }
     }
 }
