@@ -3,13 +3,7 @@ const even = document.querySelector('.even');
 const odd = document.querySelector('.odd');
 
 const checkNumber = (num, arr) => {
-  if (arr.includes(num)) {
-    return num + 1;
-  } else if (arr.includes(num) && num === 100) {
-    return num - 1;
-  } else {
-    return num;
-  }
+  return arr.includes(num) ? num + 1 : arr.includes(num) && num === 100 ? num - 1 : num;
 };
 
 const generateNumbers = () => {
